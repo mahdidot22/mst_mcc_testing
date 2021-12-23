@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="الرئيسية"
+        android:icon="@drawable/ic_home_"
+        android:enabled="true">
+
+    </item>
+    <item
+        android:id="@+id/news"
+        android:title="الأخبار"
+        android:icon="@drawable/ic_article_"
+        android:enabled="true">
+
+    </item>
+    <item
+        android:icon="@drawable/ic_history_"
+        android:id="@+id/history"
+        android:title="لمحة تاريخية"
+        android:enabled="true">
+
+    </item>
+</menu>

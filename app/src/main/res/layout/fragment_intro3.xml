@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/splashIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="7dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@mipmap/ic_alaqsa_foreground" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        android:text="المسجد الأقصى"
+        android:textColor="#CDDC39"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="يعتقد الكثيرون أن المسجد الأقصى هو المسجد الوحيد الذي بني إلى الجنوب من قبة الصخرة (المسجد القبلي) ، وهذا الاعتقاد هو نتيجة محاولات الاحتلال الإسرائيلي الصهيوني للسيطرة أو تدمير أجزاء من قبة الصخرة..."
+        android:textColor="#B4BF45"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

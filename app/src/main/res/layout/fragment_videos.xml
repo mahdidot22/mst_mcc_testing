@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.App.HistoryFragments.Videos">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="horizontal"
+        android:background="@color/purple"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/videos_btn"
+            android:text="الفيديوهات"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/images_btn"
+            android:text="معرض الصور"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/main"
+        android:layout_marginBottom="?actionBarSize"
+        android:id="@+id/videos_list"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
